@@ -1,0 +1,101 @@
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
+    meta(name='Buscador UNSA' content='')
+    meta(name='Piero Vizcarra Vargas' content='')
+    title= title
+    link(rel="stylesheet", href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css")
+    link(rel="stylesheet", href="https://netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css")
+    script(src='https://cdn.startbootstrap.com/sb-forms-latest.js')
+    script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js')
+    link(rel="shortcut icon", href="/images/cropped-LogoUNSAFav-192x192.png", type="image/x-icon")
+    link(rel="stylesheet", href="/stylesheets/bootstrap.css")
+    link(rel="stylesheet", href="/stylesheets/rotating-card.css")
+    link(rel="stylesheet", href="/stylesheets/pe-icon-7-stroke.css")
+    link(rel='stylesheet', href='/stylesheets/style.css')
+
+  body
+    nav.navbar.navbar-expand-lg.navbar-dark.bg-dark(style='padding: 0; margin: 0')
+      .container.px-5
+        a.navbar-brand(href='#!') Buscador UNSA
+        button.navbar-toggler(type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
+          span.navbar-toggler-icon
+        #navbarSupportedContent.collapse.navbar-collapse
+          ul.navbar-nav.ms-auto.mb-2.mb-lg-0
+            li.nav-item
+              a.nav-link.active(aria-current='page' href='/') Home
+            li.nav-item
+              a.nav-link(href='/nosotros') Nosotros
+            li.nav-item
+              a.nav-link(href='/contacto') Contacto
+            li.nav-item
+              a.nav-link(href='/login')  Login
+    header.bg-dark.py-5
+      .container.px-5
+        .row.gx-5.justify-content-center
+          .col-lg-6
+            .text-center.my-5
+              h1.display-5.fw-bolder.text-white.mb-2
+                | Buscador rapido y seguro
+              p.lead.text-white-50.mb-4
+                | Podras buscar el articulo que necesites en cuestión de segundos
+                | hecho por tus profesores de UNSA
+              .d-grid.gap-3.d-sm-flex.justify-content-sm-center
+                a.btn.btn-primary.btn-lg.px-4.me-sm-3(href='#') Empezar
+                a.btn.btn-outline-light.btn-lg.px-4(href='#') Saber más
+    section#features.py-5.border-bottom
+      .container.px-5.my-5
+        .row.gx-5
+          .col-lg-4.mb-5.mb-lg-0
+            .feature.bg-primary.bg-gradient.text-white.rounded-3.mb-3
+              i.bi.bi-collection
+            h2.h4.fw-bolder Rapido
+            p
+              | Sabemos que tu necesitas los articulos de una manera rapida y
+              | sencilla, por ello nuestras bases de datos estan en la nuve
+              | disponible para todo aquel interesado
+            p
+          .col-lg-4.mb-5.mb-lg-0
+            .feature.bg-primary.bg-gradient.text-white.rounded-3.mb-3
+              i.bi.bi-building
+            h2.h4.fw-bolder Gratuito
+            p
+              | Todos los conocmientos de tus profesores los podras consultar de
+              | forma sencilla y gratuita con el fin que puedas estudiar y avanzar
+              | con tus proyectos
+          .col-lg-4
+            .feature.bg-primary.bg-gradient.text-white.rounded-3.mb-3
+              i.bi.bi-toggles2
+            h2.h4.fw-bolder Efectivo
+            p
+              | Podras imprimir la lista de tus articulos de forma rapida y
+              | eficiente
+    section#features.py-5.border-bottom
+      .container.px-5.my-5
+        .row.gx-5
+          .col-lg-4.mb-5.mb-lg-0
+            .feature.bg-primary.bg-gradient.text-white.rounded-3.mb-3
+                i.bi.bi-award-fill
+            h2.h4.fw-bolder Finalidad
+            p
+              | Proporcionar de busqueda intuitiva y de uso para los investigadores
+            p
+          .col-lg-4.mb-5.mb-lg-0
+            .feature.bg-primary.bg-gradient.text-white.rounded-3.mb-3
+              i.bi.bi-badge-hd-fill
+            h2.h4.fw-bolder Responsabilidad
+            p
+              | Los articulos subidos seran revisados por los docentes y personal capacitado en la labor de investigación.
+          .col-lg-4
+            .feature.bg-primary.bg-gradient.text-white.rounded-3.mb-3
+              i.bi.bi-archive-fill
+            h2.h4.fw-bolder Futuro
+            p
+              | Podra consultar nuevos articulos de forma gratuita con la finalidad de por usarlo en cualquier momento.
+
+    footer.py-5.bg-dark
+      .container.px-5
+        p.m-0.text-center.text-white
+          | Copyright © Pev40 Production
+    
